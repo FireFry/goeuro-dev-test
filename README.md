@@ -1,3 +1,34 @@
+Installation
+============
+
+Use the following command to create requested jar file with dependencies:
+
+```
+mvn install
+```
+
+Usage
+=====
+
+Call the application with a single argument, which is the city name:
+
+```
+java -jar GoEuroTest.jar <city name>
+```
+
+To create a CSV file redirect application output to the file:
+
+```
+java -jar GoEuroTest.jar <city name> >> output.csv
+```
+
+Examples:
+
+```
+java -jar GoEuroTest.jar Berlin >> berlin.csv 
+java -jar GoEuroTest.jar "New York" >> new_york.csv 
+```
+
 Java Developer Test
 ===================
 
